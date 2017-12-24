@@ -7,9 +7,10 @@ A BASH-Script to automate taking a snapshot of your Virtual Hetzner Server and d
 - then it is creating a new snapshot
 - it is very simple and it just takes the first number in the JSON Response it can find, so be careful, if Hetzner is ever chaning their server response, this script might not work any more
 
-# Usage
+# usage
 
-- just chmod the file to 755 and run it :-)
+- just chmod the file to 755 
+- put your hetzner credentials in
 - use whatever cron-job-scheduler you like
 - enjoy :)
 
